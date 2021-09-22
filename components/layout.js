@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "./layout.module.css";
+import styles from "./layout.module.scss";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
-const name = "Your Name";
-export const siteTitle = "Next.js Sample Website";
+const name = "Daniel";
+export const siteTitle = "Next.js Tutorial Website";
 
 export default function Layout({ children, home }) {
   return (
